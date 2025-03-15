@@ -3,30 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MTCX Dev - Contact</title>
+    <title>MTCX Dev - Blockchain & Web Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #f4f4f4; color: #333; }
-        .container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-        h1 { color: #222; }
-        p { font-size: 18px; margin-bottom: 15px; }
-        .contact-info { margin-top: 20px; font-size: 16px; }
-        .contact-info a { color: blue; text-decoration: none; font-weight: bold; }
-        .contact-info a:hover { text-decoration: underline; }
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f9fa;
+        }
     </style>
 </head>
-<body>
-    <div class="container">
-        <h1>Welcome to MTCX Dev</h1>
-        <p>We are a team of developers focused on **blockchain, web, and decentralized applications**.</p>
-        <p>For inquiries, partnerships, or collaborations, reach out to us below.</p>
+<body class="flex items-center justify-center min-h-screen text-gray-800">
+    <div class="max-w-3xl w-full bg-white shadow-lg rounded-lg p-8 relative">
         
-        <div class="contact-info">
-            <p><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-            <p><strong>Twitter:</strong> <a href="https://twitter.com/yourtwitter" target="_blank">@yourtwitter</a></p>
-            <p><strong>Website:</strong> <a href="https://bickr.xyz" target="_blank">bickr.xyz</a></p>
+        <!-- Logo (Top Right) -->
+        <img src="logo.png" alt="MTCX Dev Logo" class="absolute top-6 right-6 h-10">
+
+        <h1 class="text-3xl font-bold text-gray-900 text-center">Welcome to MTCX Dev</h1>
+        <p class="text-lg text-gray-600 text-center mt-2">
+            Building the future of **blockchain, web applications, and decentralized systems**.
+        </p>
+
+        <div class="mt-6 text-center">
+            <h2 class="text-xl font-semibold text-gray-800">Our Expertise</h2>
+            <p class="text-gray-700 mt-2">
+                We specialize in blockchain integrations, full-stack web development, and secure authentication systems.
+                Our goal is to push the boundaries of decentralized technology.
+            </p>
         </div>
 
-        <p>We aim to respond within 24-48 hours.</p>
+        <div class="mt-6 text-center">
+            <h2 class="text-xl font-semibold text-gray-800">Get in Touch</h2>
+            <p class="text-gray-700 mt-2">For collaborations, inquiries, or partnerships, contact us below:</p>
+        </div>
+
+        <div class="mt-6 space-y-2 text-center">
+            <p><strong>Email:</strong> <a href="mailto:mtcx999@gmail.com" class="text-blue-600 hover:underline">mtcxdev</a></p>
+            <p><strong>Twitter:</strong> <a href="https://x.com/mtcxdev" class="text-blue-600 hover:underline">@ymtcxdev</a></p>
+            <p><strong>Website:</strong> <a href="https://mtcxdev.github.io" class="text-blue-600 hover:underline">mtcx.dev</a></p>
+        </div>
+
+        <p class="text-gray-500 text-sm text-center mt-6">© 2025 MTCX Dev. All rights reserved.</p>
     </div>
 </body>
 </html>
